@@ -1,0 +1,226 @@
+#widget_ricerca_domusuite .blocco_ricerca {
+	float: left;
+	margin-bottom: 10px;
+}
+
+#widget_ricerca_domusuite .blocco_ricerca .titolo_ricerca {
+	font-size: 100%;
+}
+
+#widget_ricerca_domusuite .blocco_ricerca input {
+	border: 1px solid #dddddd;
+    font-size: 100%;
+    font-weight: normal;
+    height: 20px;
+    padding: 2px;
+    width: 100px;
+	line-height: 100%;
+}
+
+#widget_ricerca_domusuite .blocco_ricerca input[name=search_send] {
+	width: 106px;
+	cursor: pointer;
+}
+
+#widget_ricerca_domusuite .blocco_ricerca select {
+	border: 1px solid #dddddd;
+    font-size: 100%;
+    font-weight: normal;
+    height: 20px;
+    padding: 2px;
+    width: 106px;
+	line-height: 100%;
+}
+
+#widget_ricerca_domusuite {
+	font-size: 100%;
+	
+}
+
+#lista_immobili_domusuite .ordinamento {
+	float: right;
+}
+
+#lista_immobili_domusuite .immobile {
+	width: 100%;
+	margin-bottom: 10px;
+    padding-bottom: 12px;
+	float: left;
+	border-bottom: 1px solid #ddd;
+}
+
+#lista_immobili_domusuite .immobile .titolo {
+	float: left;
+	width: 100%;
+	font-size: 100%;
+}
+
+#lista_immobili_domusuite .immobile .titolo a {
+	
+}
+
+#lista_immobili_domusuite .immobile .immagine {
+	width: 30%;
+	float: left;
+	margin-right: 10px;
+}
+
+#lista_immobili_domusuite .immobile .informazioni {
+	float: left;
+	width: 68%;
+	font-size: 100%;
+	line-height: 110%;
+}
+
+#lista_immobili_domusuite .immobile .informazioni .tipologia {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#lista_immobili_domusuite .immobile .informazioni .comune {
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
+#lista_immobili_domusuite .immobile .informazioni .descrizione_breve {
+	font-size: 75%;
+	line-height: 110%;
+	margin-bottom: 10px;
+}
+
+#lista_immobili_domusuite .immobile .altre_info {
+	float: left;
+	border-left: 1px solid #CCCCCC;
+}
+
+#lista_immobili_domusuite .immobile .altre_info div {
+	float: left;
+	padding: 3px 5px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC; 
+	border-right: 1px solid #CCCCCC;
+	background-color: #EEEEEE;
+	color: #666;
+}
+
+#lista_immobili_domusuite .immobile .altre_info .prezzo {
+	font-weight: bold;
+}
+
+#lista_immobili_domusuite .immobile .altre_info .mq {
+	font-weight: bold;
+}
+
+#lista_immobili_domusuite .immobile .altre_info .locali {
+	font-weight: bold;
+}
+
+#paginatore_domusuite {
+	float: left;
+	width: 100%;
+}
+
+
+#paginatore_domusuite .pagina {
+	float: left;
+	padding: 0 5px;
+	width: 20px;
+}
+
+#dettaglio_immobile_domusuite {
+	font-size: 100%;
+}
+
+#dettaglio_immobile_domusuite .info_immobile {
+	width: 49%;
+	float: left;
+}
+
+#dettaglio_immobile_domusuite .info_immobile .titolo {
+	width: 49%;
+	float: left;
+	font-weight: bold;
+}
+
+#dettaglio_immobile_domusuite .altre_info div {
+	float: left;
+	padding: 3px 5px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC; 
+	border-right: 1px solid #CCCCCC;
+	background-color: #EEEEEE;
+	color: #666;
+}
+
+#dettaglio_immobile_domusuite .torna_lista {
+	float: right;
+}
+
+#dettaglio_immobile_domusuite .immagine {
+	width: 550px;
+}
+
+#dettaglio_immobile_domusuite .thumb {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#dettaglio_immobile_domusuite .thumb .thumb_singola {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	height: 70px;
+}
+
+#dettaglio_immobile_domusuite .thumb .thumb_singola img {
+	width:100px;
+	float: left;
+	
+}
+
+#dettaglio_immobile_domusuite .spazio_blocco {
+	float: left;
+	width: 100%;
+	height: 20px;
+}
+
+#dettaglio_immobile_domusuite .descrizione {
+	float: left;
+	width: 100%;
+}
+
+#dettaglio_immobile_domusuite .indirizzo {
+	float: left;
+	width: 100%;
+}
+
+#dettaglio_immobile_domusuite .altre_info .prezzo {
+	font-weight: bold;
+}
+
+#dettaglio_immobile_domusuite .altre_info .mq {
+	font-weight: bold;
+}
+
+#dettaglio_immobile_domusuite .altre_info .locali {
+	font-weight: bold;
+}
+
+
+#dettaglio_immobile_domusuite .spazio_altre_info {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+#dettaglio_immobile_domusuite #mappa_immobile_domusuite {
+	float: left;
+	width:550px;
+	height: 350px;
+	margin-top: 20px;
+}
+
+#mappa_immobile_domusuite img {
+	max-width: none !important;
+}
+
